@@ -26,7 +26,7 @@ h1, h2 {
     margin-left: 30px;
 }
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -68,7 +68,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
 /* animates zoom effect on image  */
     animation-name: hero-zoom;
@@ -79,7 +79,7 @@ h1, h2 {
 /* creates the level of zoom for the hero image  */
 
 @keyframes hero-zoom {
-    from{ 
+    from{
         transform: scale(1);
     }
     to{
@@ -126,4 +126,18 @@ h1, h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
