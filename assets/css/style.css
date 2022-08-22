@@ -322,6 +322,10 @@ hr {
     #photos {
         column-count: 2;
     }
+
+    #center-about {
+        padding-bottom: 2em;
+    }
 }
 
 
